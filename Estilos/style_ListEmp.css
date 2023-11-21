@@ -1,0 +1,58 @@
+table{
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table, th, td {
+   
+    padding: 4px;
+}
+th, td{
+    font-size: 13px;
+}
+table tr:nth-child(even){
+    background-color: rgb(209, 233, 237);
+}
+
+table tr:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4b0067;
+    color: white;
+}
+.btn_añadir{
+    color: white;
+}
+td .icon-trash{
+    color: #504c72;
+    font-size: 25px;
+    text-decoration: none;
+}
+td .icon-pencil{
+    color: #504c72;
+    font-size: 25px;
+    text-decoration: none; 
+}
+.buscador{
+    height: auto;
+    background-color: #3D3A56;
+    padding: 20px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.icon-cart-plus, .icon-home, .icon-user-add{
+    color: aqua; 
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.subtitulos{
+    color: rgb(204, 204, 204);
+    margin: 0;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/

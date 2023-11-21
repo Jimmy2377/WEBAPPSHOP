@@ -1,0 +1,102 @@
+
+#main-container .formulario{
+    border: solid 1px #504c72;
+    border-radius: 5px;
+    width: 500px;
+    padding: 8px;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.encabezado_titulo{
+    display: inline-flex;
+}
+.formulario h2{
+    color: #504c72;
+    margin: 7px; 
+}
+.campoA{
+    border-top: 2px solid rgb(157, 245, 255);  
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;    
+}
+.Datos{
+    margin: 5px;
+    width: 250px;
+    height: auto;
+    
+}
+
+.textos{
+    position:static;
+    width: 90%;
+    border-bottom: 2px solid #adadad;
+    margin: 10px 5px;
+}
+.textos input{
+    width: 100%;
+    padding: 0 3px;
+    height: 20px;
+    font-size: 12px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.box{
+    width: 90px;
+    margin: 17px 5px; 
+    
+}
+.box select{
+    background-color: #9df3d9;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+.wrapper{
+    height: 130px;
+    width: 130px;
+    background-image: url('../img/camera.png');
+    background-size: 100% 100%;
+    margin: 20px auto;
+}
+.my_file{
+    color: transparent;
+    width: 100%;
+    font-size: 19px;
+    box-sizing: border-box;
+    padding: 50px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    position:sticky;
+}
+.my_file:hover{
+    background: rgba(44, 44, 44, 0.5);
+}
+.botoningreso{
+   background: #4b0067; 
+   border: none;
+   border-radius: 5px;
+   padding: 3px;
+   color: white;
+   width: 150px;
+   margin-top: 30px;
+}
+.botoningreso:hover{
+    background: #006a4a;
+    color: white;  
+}
+
+label{
+    color: #4b0067;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+

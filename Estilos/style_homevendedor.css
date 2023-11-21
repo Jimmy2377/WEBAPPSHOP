@@ -1,0 +1,80 @@
+.buscador{
+    height: auto;
+    background-color: #3D3A56;
+    padding: 20px;
+    display: inline-flex;
+    width: 100%;
+}
+.barraestadistica{
+    background-color: #5e5a79;
+    height: auto;
+    padding: 20px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+.tarjeta{
+    background-image: linear-gradient(90deg, rgba(247, 247, 247, 1) 0%, rgba(222, 222, 222, 1) 100%);
+    width: 200px;
+    height: 100px;  
+    border-radius: 20px;
+    margin-inline: 20px;
+    transition: 0.5s;
+    color: #5e5a79;
+    text-decoration: none;
+}
+.tarjeta:hover{
+    scale: 110%;
+}
+
+.icon-home, .icon-attention{
+    color: aqua; 
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.icon-home:hover, .icon-attention:hover{
+    text-shadow: 1px 1px 11px rgba(0, 251, 255, 1);
+}
+
+/*ºººººººººººººººººººººººººººTABLAºººººººººººººººººººººººººººººººººººººººººººººººº*/
+
+table{
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table, th, td {
+    padding: 9px;
+    text-align: center;
+}
+th, td{
+    font-size: 13px;
+}
+table tr:nth-child(even){
+    background-color: rgb(209, 233, 237);
+}
+
+table tr:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4b0067;
+    color: white;
+    border-radius:10px 10px 0 0;
+}
+.btn_añadir{
+    color: white;
+}
+td .icon-trash{
+    color: #504c72;
+    font-size: 25px;
+    text-decoration: none;
+}
+td .icon-pencil{
+    color: #504c72;
+    font-size: 25px;
+    text-decoration: none; 
+}

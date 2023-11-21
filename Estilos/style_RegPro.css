@@ -1,0 +1,126 @@
+.wrapper{
+    height: 130px;
+    width: 130px;
+    background-image: url('../img/camera.png');
+    background-size: 100% 100%;
+    margin: 20px auto;
+}
+.my_file{
+    color: transparent;
+    width: 100%;
+    font-size: 19px;
+    box-sizing: border-box;
+    padding: 50px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    position:sticky;
+}
+.my_file:hover{
+    background: rgba(44, 44, 44, 0.5);
+}
+#main-container .formulariopro{
+    border: solid 1px #504c72;
+    border-radius: 5px;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.encabezado_titulopro{
+    display: inline-flex;
+}
+.formulariopro h2{
+    color: #504c72;
+    margin: 10px; 
+}
+.campoApro{
+    border-top: 2px solid rgb(157, 245, 255);  
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+.Datospro{
+    margin: 5px;
+    width: 200px;
+    height: auto;
+    
+}
+
+.textospro{
+    position:static;
+    width: 90%;
+    border-bottom: 2px solid #adadad;
+    margin: 15px 5px;
+}
+.textospro input{
+    width: 100%;
+    padding: 0 3px;
+    height: 20px;
+    font-size: 12px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.boxpro{
+    width: 90px;
+    margin: 17px 5px; 
+    
+}
+.boxpro select{
+    background-color: #9df3d9;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.botoningreso{
+   background: #4b0067; 
+   border: none;
+   border-radius: 5px;
+   padding: 3px;
+   color: white;
+   width: 150px;
+   margin-top: 30px;
+}
+.botoningreso:hover{
+    background: #006a4a;
+    color: white;  
+}
+
+.buscador{
+    height: auto;
+    background-color: #3D3A56;
+    padding: 20px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.icon-clipboard, .icon-home, .icon-address-card, .icon-plus, .icon-attention{
+    color: aqua; 
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.icon-clipboard:hover, .icon-home:hover, .icon-address-card:hover, .icon-plus:hover, .icon-attention:hover, .icon-user-add:hover, .icon-cart-plus:hover{
+    text-shadow: 1px 1px 11px rgba(0, 251, 255, 1);
+}
+
+.buscador button{
+    background: #3D3A56;
+    border: none;
+    padding: 0;
+}
+
+#modalprov::backdrop, #modalvol::backdrop{
+    background-color: #2c113b73;
+}
+#modalprov, #modalvol{
+    border: none;
+    border-radius: 10px;
+    background: #504c72;
+    color: aqua;
+}
